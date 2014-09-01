@@ -1,0 +1,142 @@
+a {
+	text-decoration: none;
+	color:#74b1e2;
+}
+
+body {
+	background-color:#fff;
+	background: url(../img/background.jpg) no-repeat center center fixed;
+  	background-size: cover;
+	color: #313131;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+
+header {
+	background: rgba(204, 204, 204, 0.8);
+	float: left;
+	margin: 0 0 5em 0;
+	padding: 5px 0;
+	width: 100%;
+	border-bottom: 5px solid rgba(141, 141, 141, 0.8);
+  	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); 
+}
+
+section {
+	text-align:center;
+	padding-top:1px;
+}
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #59595a;
+	clear: both;
+}
+
+/* logo text */
+
+h1 {
+	font-size: 1.95em;
+	font-weight: 800;
+	line-height: 0.8em;
+}
+
+/* ID styles */
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#wrapper p {
+	font-size: 1.5em;
+}
+
+#logo {
+	text-align: center;
+	color: white;
+	margin: .5em 0;
+	display: block;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:800;
+	font-size: 1.45em;
+}
+
+#hot {
+	color: #ff5a3d;
+	display: inline;
+}
+
+#cold {
+	color: #4c81f9;
+	display: inline;
+}
+
+/* button styles */
+
+#submit {
+	background-color:#40c341;
+	border-bottom:3px solid #257d21;
+	color:#0f2f0c;
+}
+
+#submit:hover {
+	background-color:#257d21;
+}
+
+#reset {
+	background-color:#bb2626;
+	border-bottom:3px solid #941e1e;
+	color:#23020a;
+}
+
+#reset:hover {
+	background-color:#941e1e;
+}
+
+#hint {
+	background-color:#74b1e2;
+	border-bottom:3px solid #5784a9;
+	color:#19293b;
+}
+
+#hint:hover {
+	background-color:#5784a9;
+}
+
+/* input and button styling */
+
+input[type=text] {
+	width:6em;
+	height:1.8em;
+	font-size:1.5em;
+	border-radius:.3em;
+	background-color:#dfdde0;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+input[type=text]:focus {
+	border-color:green;
+}
+
+button {
+	text-decoration: none;
+	text-align: center;
+	border-radius: .3em;
+	border:none;
+	font-size: 1.2em;
+	padding: 0.2em 0.6em;
+	font-family:'Roboto', sans-serif;
+	font-weight:700;
+}
+
+button:hover {
+	border:none;
+	color:#f4f3f5;
+	margin:0 auto;
+}

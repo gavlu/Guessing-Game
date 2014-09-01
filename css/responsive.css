@@ -1,0 +1,15 @@
+@media screen and (min-width: 480px) {
+	#wrapper {
+		padding:0 15%;
+	}
+}
+
+@media screen and (min-width: 660px) {
+	#logo {
+		font-size: 1.75em;
+	}
+
+	#wrapper {
+		padding:0 30%;
+	}
+}
