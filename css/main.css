@@ -12,6 +12,14 @@ body {
 	font-weight:400;
 }
 
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #59595a;
+	clear: both;
+}
+
 header {
 	background: rgba(204, 204, 204, 0.8);
 	float: left;
@@ -28,34 +36,16 @@ section {
 	padding-top:1px;
 }
 
-footer {
-	font-size: 0.75em;
-	text-align: center;
-	padding-top: 50px;
-	color: #59595a;
-	clear: both;
+section p {
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* logo text */
-
 h1 {
 	font-size: 1.95em;
 	font-weight: 800;
 	line-height: 0.8em;
 }
-
-/* ID styles */
-
-#wrapper {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;
-}
-
-#wrapper p {
-	font-size: 1.5em;
-}
-
 #logo {
 	text-align: center;
 	color: white;
@@ -66,17 +56,29 @@ h1 {
 	font-size: 1.45em;
 }
 
-#hot {
-	color: #ff5a3d;
-	display: inline;
-}
+/* ID styles */
 
 #cold {
 	color: #4c81f9;
 	display: inline;
 }
 
+#hot {
+	color: #ff5a3d;
+	display: inline;
+}
+
 /* button styles */
+
+#hint {
+	background-color:#74b1e2;
+	border-bottom:3px solid #5784a9;
+	color:#19293b;
+}
+
+#hint:hover {
+	background-color:#5784a9;
+}
 
 #submit {
 	background-color:#40c341;
@@ -98,30 +100,55 @@ h1 {
 	background-color:#941e1e;
 }
 
-#hint {
-	background-color:#74b1e2;
-	border-bottom:3px solid #5784a9;
-	color:#19293b;
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
 }
 
-#hint:hover {
-	background-color:#5784a9;
+#wrapper p {
+	font-size: 1.5em;
+}
+
+/* Styling for Results area */
+
+#hotCold{
+	content: "";
+	margin:1em auto;
+	display:block;
+	width: 30%;
+	max-height: 8%;
+	padding: 2.5em;
+	border-radius: 2em;
+	background: grey;
+	-webkit-transition: background-color 1.5s;
+	-moz-transition: background-color 1.5s;
+	-o-transition: background-color 1.5s;
+	transition: background-color 1.5s;
+}
+
+#hotCold div {
+	width:100%;
+	color: white;
+	text-align:center;
 }
 
 /* input and button styling */
 
 input[type=text] {
-	width:6em;
-	height:1.8em;
-	font-size:1.5em;
-	border-radius:.3em;
-	background-color:#dfdde0;
-	margin-bottom:10px;
-	text-align:center;
+  border: 4px solid rgba(229, 229, 229, 0.8);
+  border-radius: 0.6em;
+  box-shadow: inset 0 0 0.4em rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  background: rgba(229, 229, 229, 0.2);
+  width: 26%;
+  text-align: center;
+  color: #292929;
+  margin-bottom: 1em;
 }
 
 input[type=text]:focus {
-	border-color:green;
+	outline:none;
 }
 
 button {
@@ -139,4 +166,8 @@ button:hover {
 	border:none;
 	color:#f4f3f5;
 	margin:0 auto;
+}
+
+button:focus {
+	outline:none;
 }
